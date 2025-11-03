@@ -4,8 +4,3 @@
 redshift.url=jdbc:redshift://your-workgroup.region.redshift-serverless.amazonaws.com:5439/dev
 redshift.username=admin
 redshift.password=YourPassword
-
-# Example:
-# redshift.url=jdbc:redshift://big-data-a6.251369405543.ap-south-1.redshift-serverless.amazonaws.com:5439/dev
-# redshift.username=admin
-# redshift.password=Password123#
