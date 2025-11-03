@@ -4,11 +4,11 @@ Implementation of Assignment 6 for Big Data Analytics course, demonstrating Amaz
 
 ## Features
 
-- ✅ Connection to AWS Redshift Serverless
-- ✅ Schema and table management (drop/create)
-- ✅ Efficient data loading using multi-row INSERT (5000 rows/batch)
-- ✅ Complex analytical queries on TPC-H dataset
-- ✅ Transaction management and error handling
+- Connection to AWS Redshift Serverless
+- Schema and table management (drop/create)
+- Efficient data loading using multi-row INSERT (5000 rows/batch)
+- Complex analytical queries on TPC-H dataset
+- Transaction management and error handling
 
 ## Dataset
 
@@ -28,26 +28,6 @@ TPC-H benchmark data with 86,635 records across 8 tables:
 - **Language:** Java 11+
 - **Build Tool:** Gradle 8.4
 - **JDBC Driver:** Amazon Redshift JDBC42 2.1.0.29
-
-## Project Structure
-
-```
-a6/
-├── redshift-assignment/          # Gradle Java project
-│   ├── src/
-│   │   ├── main/
-│   │   │   ├── java/
-│   │   │   │   └── com/iitj/bigdata/
-│   │   │   │       └── AmazonRedshift.java
-│   │   │   └── resources/
-│   │   │       ├── config.properties.example
-│   │   │       └── data/          # TPC-H SQL files
-│   │   └── test/
-│   └── build.gradle
-├── DDL data/                      # Original SQL data files
-├── Assignment-6-Report.md         # Comprehensive report
-└── Assig-6.md                     # Assignment specification
-```
 
 ## Setup
 
@@ -151,14 +131,14 @@ Query 3: 5 results (priority levels)
 ## Assignment Completion
 
 All 8 tasks completed (55/55 points):
-- ✅ connect() - Database connection
-- ✅ close() - Connection cleanup
-- ✅ drop() - Drop all tables
-- ✅ create() - Create TPC-H schema
-- ✅ insert() - Load data with multi-row INSERT
-- ✅ query1() - Top orders in America
-- ✅ query2() - Customer spending analysis
-- ✅ query3() - Line items by priority
+- connect() - Database connection
+- close() - Connection cleanup
+- drop() - Drop all tables
+- create() - Create TPC-H schema
+- insert() - Load data with multi-row INSERT
+- query1() - Top orders in America
+- query2() - Customer spending analysis
+- query3() - Line items by priority
 
 ## Documentation
 

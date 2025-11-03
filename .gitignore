@@ -30,9 +30,13 @@ build/
 .DS_Store
 Thumbs.db
 
-# Config with credentials (keep example only)
-redshift-assignment/src/main/resources/config.properties
+# Config with credentials
+src/main/resources/config.properties
 
 # Temporary files
 *.tmp
 *.bak
+
+# Test results
+test-results/
+test-output/
