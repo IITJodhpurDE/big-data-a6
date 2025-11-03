@@ -1,0 +1,4 @@
+# Track large SQL data files in root-level data/ with Git LFS
+# Note: Ensure `git lfs install` is run locally before adding files so pointers are created
+
+data/** filter=lfs diff=lfs merge=lfs -text
